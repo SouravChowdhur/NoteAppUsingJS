@@ -1,0 +1,66 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+#main {
+    background-color: #1abc9c;
+    width: 100%;
+    min-height: 100vh;
+    display: flex;
+    flex-wrap: wrap;
+    padding-bottom: 50px;
+}
+
+.note {
+    width: 500px;
+    height: 500px;
+    background-color: white;
+    margin: 15px;
+    margin-top: 40px;
+}
+
+.toolbar {
+    width: 100%;
+    background-color: black;
+    padding: 5px;
+
+    
+    color: white;
+    display: flex;
+    justify-content: end;
+}
+
+textarea {
+    height: 100%;
+    width: 100%;
+    border: none;
+    resize: none;
+    padding: 10px;
+    font-size: 15px;
+}
+
+textarea:focus{
+    border: 0;
+    outline: 0;
+}
+.toolbar i {
+    margin: 5px;
+    cursor: pointer;
+}
+
+.btn {
+    right: 0;
+    top: 0;
+    position: fixed;
+    padding: 10px;
+    border: 0;
+    outline: 0;
+    color: white;
+    background-color: #34495e;
+    font-size: 15px;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
